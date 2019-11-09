@@ -104,13 +104,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
@@ -149,23 +150,41 @@ footer nav a {
 }
 
 .nav a{
-    padding:20px;
-     
-     margin: 20px 80px;
-     
-     display:inline-block;
-     color: black;
-     
+    padding:10px;
+    margin: 35px 80px;
+    display:inline-block;
+    color: black;
+    
      .header{
          text-align: center;
      }
      
-     
-     box{
+    main {
 
-        background: teal;
-     }
-     .text-container{
-        margin: 20px 80px;
-        padding: 20px;
-     }
+        background: yellow;
+        margin: 50px 50px;
+        padding: 30px;
+    }
+
+    main div{
+
+        color:red;
+        padding: 30px;
+        margin:5px;
+        max-width: 1000;
+    }
+    .inline-block div{
+        display: inline-block;
+        margin:220px 120px;
+
+    }
+
+    .flex{
+
+        display: flex;
+    }
+     
+.container about-page{
+
+    text-align: center;
+}
