@@ -104,13 +104,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +144,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.nav{
+    text-align:center;
+}
+
+.nav a{
+    padding:10px;
+    margin: 35px 80px;
+    display:inline-block;
+    color: black;
+    {
+     .header{
+         text-align: center;
+     }
+     
+    main {
+
+        background: yellow;
+        margin: 50px 50px;
+        padding: 30px;
+    }
+
+    main div{
+
+        color:red;
+        padding: 30px;
+        margin:5px;
+        max-width: 1000;
+    }
+    .inline-block div{
+        display: inline-block;
+        margin:220px 120px;
+        width: 400px;
+        height: 400px;
+        margin: 100px 200px;
+        border: 10px solid dodgerblue;
+        
+    }
+    
+        
+    
+
+    .flex{
+
+        display: flex;
+    }
+     
+.container about-page{
+
+    text-align: center;
 }
