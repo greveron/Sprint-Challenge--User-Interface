@@ -154,7 +154,7 @@ footer nav a {
     margin: 35px 80px;
     display:inline-block;
     color: black;
-    
+    {
      .header{
          text-align: center;
      }
@@ -176,8 +176,15 @@ footer nav a {
     .inline-block div{
         display: inline-block;
         margin:220px 120px;
-
+        width: 400px;
+        height: 400px;
+        margin: 100px 200px;
+        border: 10px solid dodgerblue;
+        
     }
+    
+        
+    
 
     .flex{
 
