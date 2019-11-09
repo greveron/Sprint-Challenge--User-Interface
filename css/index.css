@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.nav{
+    text-align:center;
+}
+
+.nav a{
+    padding:20px;
+     
+     margin: 20px 80px;
+     
+     display:inline-block;
+     color: black;
+     
+     .header{
+         text-align: center;
+     }
+     
+     
+     box{
+
+        background: teal;
+     }
+     .text-container{
+        margin: 20px 80px;
+        padding: 20px;
+     }
