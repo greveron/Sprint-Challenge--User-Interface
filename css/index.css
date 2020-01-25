@@ -71,12 +71,13 @@ p {
     margin: 0 auto;
 }
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
@@ -87,7 +88,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -101,7 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/*.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,8 +111,131 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}*/
+
+#box1{
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;  
 }
 
+#box2{
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;  
+}
+
+#box3 {
+
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+#box4 {
+
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+#box5 {
+
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+#box6 {
+
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+#box7 {
+
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+#box8 {
+
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+#box9 {
+
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+#box10 {
+
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container{
+margin-top: 20px;
+border-bottom: 1px dashed black;
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,6 +253,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
@@ -144,3 +269,89 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.buttoms {
+    width: 120px;
+    padding:5px;
+    margin-bottom: 1px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.buttoms:hover{
+   background-color: #FF9653;
+}
+.nav{
+    text-align: center;
+    }
+
+    .nav a{
+        padding: 10px;
+        margin: 35px 80px;
+        display: inline-block;
+        color: black;
+        text-decoration: none; 
+    }
+
+    .nav a:hover{
+     color:#10eae3;
+     font-size: x-large;
+    }
+    .about1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+        margin:25px 500px; 
+        margin-top: 30px;
+    }
+
+    .about1 .about-container{
+        width: 48%;
+        padding: 0 1%;
+        padding-bottom: 20px;
+        
+        
+    }
+    .about-container h2{
+        margin-top: 10px;
+        
+    }
+
+}
+.about2-container h2{
+    margin-top: 10px;
+}
+
+    .about2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        margin:25px 500px;
+    }
+    
+    .about2 .about2-container{
+        width: 48%;
+        padding: 0 1%;
+        padding-bottom: 20px; 
+        border-bottom: 1px dashed black;
+    }
+
+    .lets h2{
+      margin: 20px 0px 10px 517px;  
+      
+    }
+
+    .lets p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        width: 48%;
+        padding:0 1%;
+        padding-bottom: 20px;
+    }
